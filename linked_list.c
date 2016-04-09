@@ -1,14 +1,14 @@
 //singly linked list node
-struct SingleList
+struct SListNode
 {
 	int val;
-	SingleList* pNext;	
+	SListNode* pNext;	
 }
 
 //double linked list node
-struct DoubleList
+struct DListNode
 {
 	int val;
-	DoubleList* pNext;
-	DoubleList* pPrev;
+	DListNode* pNext;
+	DListNode* pPrev;
 }
